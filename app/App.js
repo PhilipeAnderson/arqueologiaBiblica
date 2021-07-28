@@ -1,12 +1,15 @@
 import React from 'react';
 import Login from './src/pages/Login';
-import {DefaultTheme, Provider as PaperProvider} from 'react-native-paper';
+import Home from './src/pages/Home';
+
+import { DefaultTheme, Provider as PaperProvider } from 'react-native-paper';
+import { StatusBar } from 'react-native';
 
 const App = () => {
 
   const theme = {
     ...DefaultTheme,
-    colors:{
+    colors: {
       ...DefaultTheme.colors,
       primary: '#fb7500',
       background: '#3c3c3c',
@@ -14,11 +17,12 @@ const App = () => {
       text: '#ffffff'
     }
   };
-  
 
-  return(
+
+  return (
     <PaperProvider theme={theme}>
-        <Login />
+      <StatusBar backgroundColor="#000" />
+        <Home />
     </PaperProvider>
   );
 };
