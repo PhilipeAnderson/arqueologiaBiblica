@@ -1,16 +1,27 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { Text, View, TouchableOpacity, Image } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 
 import styles from './styles';
 
 const Header = () => {
-    return(
-        <LinearGradient style={styles.header}>
+    return (
+        
+        <LinearGradient style={styles.header} colors={['#000', '#fff']}>
             <View style={styles.headerSafeAreaView}>
-                <Text>Hello Header</Text>
+                <Image style={styles.logoImageHeader} source={require('../../assets/logo.jpg')} />
+                <TouchableOpacity>
+                    <Text style={styles.textWhite}>Criação</Text>
+                </TouchableOpacity>
+                <TouchableOpacity>
+                    <Text style={styles.textWhite}>Heróis</Text>
+                </TouchableOpacity>
+                <TouchableOpacity>
+                    <Text style={styles.textWhite}>Jesus</Text>
+                </TouchableOpacity>
             </View>
         </LinearGradient>
+        
     );
 };
 
