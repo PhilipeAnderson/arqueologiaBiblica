@@ -7,7 +7,7 @@ import styles from './styles';
 const Header = () => {
     return (
         
-        <LinearGradient style={styles.header} colors={['#000', '#fff']}>
+        <LinearGradient style={styles.header} colors={['#000', 'fb7500']}>
             <View style={styles.headerSafeAreaView}>
                 <Image style={styles.logoImageHeader} source={require('../../assets/logo.jpg')} />
                 <TouchableOpacity>
