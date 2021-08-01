@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     header:{
         position: 'absolute',
         top: 0,
-        zIndex: 9999
+        zIndex: 999
     },
     headerSafeAreaView:{
         flexDirection: 'row',
