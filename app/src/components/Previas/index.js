@@ -39,4 +39,4 @@ const Previas = () => {
     )
 }
 
-export const Previas
+export default Previas

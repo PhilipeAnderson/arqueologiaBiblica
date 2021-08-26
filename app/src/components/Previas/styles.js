@@ -1,8 +1,8 @@
 import { StyleSheet } from 'react-native'
 
-const styles = StyleShhet.create({
+const styles = StyleSheet.create({
     oval: {
-        backgroundColor: '#e50914',
+        backgroundColor: '#fb7500',
         padding: 2.5,
         width: 90,
         height: 90,
