@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import { Text, View, TouchableOpacity, Image } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
