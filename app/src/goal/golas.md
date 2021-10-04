@@ -1,6 +1,7 @@
-Os estudo se darao sempre com o formato dos filmes da Netflix
-- Filmes = Séries
-- Filme = Estudo
+Os estudo se darão sempre com o formato dos filmes da Netflix
+- 1 Série = Série
+- Episódios das temporadas = Lessons 
+- 1 Filme = 1 Estudo
 
 Teremos de início 3 Estudos que seriam as "series da netflix":
 contendo em cada "Estudos" 4 "Estudo"

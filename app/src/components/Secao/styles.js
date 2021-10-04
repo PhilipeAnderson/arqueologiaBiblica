@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
         borderRadius: 4,
         overflow: 'hidden'
     },
-    log: {
+    logo: {
         width: 100,
         height: 45,
         position: 'absolute',
