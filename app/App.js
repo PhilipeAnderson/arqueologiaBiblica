@@ -3,7 +3,6 @@ import {DefaultTheme, Provider as PaperProvider} from 'react-native-paper';
 import Routes from './routes'
 import {StatusBar} from 'react-native';
 
-
 const App = () => {
   const theme = {
     ...DefaultTheme,
