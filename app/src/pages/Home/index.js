@@ -32,7 +32,7 @@ const Home = () => {
       </View>
 
       {[1, 2, 3, 4].map((secao, index) => (
-        <Secao key={index} />
+        <Secao hasTopBorder key={index} />
       ))}
     </ScrollView>
   );
