@@ -64,7 +64,10 @@ const Estudo = () => {
           {tipo === 'Séries' && (
             <>
               <Title>Série</Title>
-              <TouchableOpacity onPress={() => setVisible(true)} style={styles.buttonLesson}>
+              <TouchableOpacity 
+                onPress={() => setVisible(true)} 
+                style={styles.buttonLesson}
+              >
                 <Text style={styles.lessonName}>{lesson.label}</Text>
                 <Icon name="chevron-down" color="#fff" size={20} />
               </TouchableOpacity>
