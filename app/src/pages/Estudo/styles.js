@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         marginVertical: 20
     },
-    buttonTemporada: {
+    buttonLesson: {
         width: '100%',
         padding: 10,
         borderRadius: 3,
@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         marginVertical: 20
     },
-    temporadaName: {
+    lessonName: {
         color: '#fff'
     }
 });

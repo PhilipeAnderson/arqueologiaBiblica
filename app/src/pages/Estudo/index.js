@@ -32,7 +32,7 @@ const Estudo = () => {
         ]}
         visible={visible}
         selectedItem={lesson}
-          onOk={result => {
+        onOk={result => {
           setVisible(false);
           setLesson(result.selectedItem);
         }}
@@ -64,8 +64,8 @@ const Estudo = () => {
           {tipo === 'Séries' && (
             <>
               <Title>Série</Title>
-              <TouchableOpacity onPress={() => setVisible(true)} style={styles.buttonTemporada}>
-                <Text style={styles.temporadaName}>{lesson.label}</Text>
+              <TouchableOpacity onPress={() => setVisible(true)} style={styles.buttonLesson}>
+                <Text style={styles.lessonName}>{lesson.label}</Text>
                 <Icon name="chevron-down" color="#fff" size={20} />
               </TouchableOpacity>
 

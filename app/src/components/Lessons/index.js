@@ -10,7 +10,7 @@ const Lessons = () => {
 			<View style={styles.row}>
 				<Image style={styles.capa} source={{ uri: 'https://i.imgur.com/EJyDFeY.jpg' }} />
 				<View>
-					<Title style={{ fontSize: 20 }}>Nome Da Lição</Title>
+					<Title style={{ fontSize: 15 }}>Nome Da Lição</Title>
 					<Caption>Tempo de Leitura aproximado de 45min</Caption>
 				</View>
 			</View>
