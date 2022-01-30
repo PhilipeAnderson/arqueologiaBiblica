@@ -12,14 +12,18 @@ Bem vindo ao um projeto criado em atender de forma mais robusta os ensinamentos 
 <table border="1">
     <thead>
     	<tr>
-        	<th>Tela de Início</th>
-            <th>Previas e Seção</th>
+        	<th>Login</th>
+            <th>Tela de Inicio</th>
+            <th>Futuros e Sessões</th>
+            <th>Lições</th>
         </tr>
     </thead>
     <tbody>
     	<tr>
-        	<td align="center"><img src="assets/telaInicioTopo.JPG" alt="Tela Inicio Topo" /></td>
-            <td align="center"><img src="assets/previasSecao.JPG" alt="Prévias e Seção do APP" /></td>
+        	<td align="center"><img width="220" src="assets/login.png" alt="Tela de Login do App" /></td>
+            <td align="center"><img width="220" src="assets/home01.png" alt="Tela de Inicio do App" /></td>
+            <td align="center"><img width="220" src="assets/home02.png" alt="Tela de Inicio do App" /></td>
+            <td align="center"><img width="220" src="assets/estudo01.png" alt="Tela de Inicio do App" /></td>
         </tr>
     </tbody>
 </table>
