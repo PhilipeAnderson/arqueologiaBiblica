@@ -7,7 +7,7 @@ Bem vindo ao um projeto criado em atender de forma mais robusta os ensinamentos 
 * Servidor (Node Js)
 * Hospedagem (AWS)
 
-​	Até o momento foram criadas as primeiras linhas de código referente ao construção do App para Android, temos abaixo a primeira tela do projeto, divididas em duas partes.
+​	Até o momento foram criadas as primeiras linhas de código referente ao construção do App para Android e IOS, temos abaixo a primeira tela do projeto, divididas em duas partes.
 
 <table border="1">
     <thead>
