@@ -20,7 +20,7 @@ Bem vindo ao um projeto criado em atender de forma mais robusta os ensinamentos 
     </thead>
     <tbody>
     	<tr>
-        	<td align="center"><img width="220" src="assets/login.png" alt="Tela de Login do App" /></td>
+        	<td align="center"><img width="220" src="assets/loginPass.png" alt="Tela de Login do App" /></td>
             <td align="center"><img width="220" src="assets/home01.png" alt="Tela de Inicio do App" /></td>
             <td align="center"><img width="220" src="assets/home02.png" alt="Tela de Inicio do App" /></td>
             <td align="center"><img width="220" src="assets/estudo01.png" alt="Tela de Inicio do App" /></td>
