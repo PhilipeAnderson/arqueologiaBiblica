@@ -1,0 +1,5 @@
+# node - backend
+node/node_modules/
+
+# app - frontend - apk/ipa
+app/node_modules/
