@@ -2,9 +2,13 @@ Conteúdo voltado para Religião com Arqueologia
 
 Os estudo se darão sempre com o formato dos filmes da Netflix
 - 1 Série = Série
-  - Episódios das temporadas = Lessons 
+  - Episódios das temporadas = Lessons
+    * recebe de Seção - Seção é uma lista de estudos que compoe uma série em sequencia!
+    * videos menores para explicar o mesmo assunto!
 
-- 1 Filme = 1 Estudo
+- 1 Filme = 1 Estudo 
+    * recebe de Prévias - Prévias são uma lista de filmes(estudos) com começo meio e fim!
+    * videos maiores para explicar o assunto todo debatido!
 
 Teremos de início 3 Séries que seriam as "series da netflix":
 contendo em cada "Série" 4 "Lições"
