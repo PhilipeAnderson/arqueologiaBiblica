@@ -1,14 +1,14 @@
 const database = require('../services/database');
-const Usuario = require('../models/usuario');
+const Usuarios = require('../models/usuario');
 const usuariosJSON = require('../data/usuario.json');
 
 
-const addUsers = async () => {
+const addUsuarios = async () => {
   
   try {
     for(let usuario of usuariosJSON) {
       console.log(`Inserindo ${usuario.nome}`)
-      await new Usuario(usuario).save();
+      await new Usuarios(usuario).save();
     }
     console.log('Finalizou')
   } catch (err){
@@ -16,4 +16,4 @@ const addUsers = async () => {
   }
 }
 
-addUsers();
+addUsuarios();
