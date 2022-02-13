@@ -6,11 +6,12 @@ const Estudo = mongoose.model('Estudo', {
   capa: String,
   logo: String,
   thumb: String,
+  video: String,
   descricao: String,
   duracao: String,
   professores: Array,
-  genero: Array,
-  cenas: Array
+  generos: Array,
+  canal: Array
 })
 
 module.exports = Estudo;

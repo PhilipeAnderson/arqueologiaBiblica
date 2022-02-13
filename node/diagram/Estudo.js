@@ -23,6 +23,10 @@ var Estudo = new Schema({
     type: String, 
     required: true
   },
+  video: {
+    type: String,
+    required: true
+  },
   descricao: {
     type: String, 
     required: true
@@ -35,11 +39,11 @@ var Estudo = new Schema({
     type: String, 
     required: true
   }],
-  genero: [{
+  generos: [{
     type: String, 
     required: true
   }],
-  cenas: [{
+  canal: [{
     type: String, 
     required: true
   }]

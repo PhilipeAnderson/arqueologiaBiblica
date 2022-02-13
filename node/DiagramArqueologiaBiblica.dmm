@@ -1,0 +1,595 @@
+{
+	"tables": {
+		"59f9aacb-49ed-411b-9d11-034b457ac65a": {
+			"id": "59f9aacb-49ed-411b-9d11-034b457ac65a",
+			"visible": true,
+			"name": "Estudo",
+			"desc": "Tudo que é um estudo. Ele existe por ele mesmo e pode compor uma Série que tem Temporadas que inclui Lições, tudo isso é um estudo!",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "f4912d51-c9dd-49a4-aa32-3dbb2bc6b7f6",
+					"name": "_id",
+					"datatype": "ObjectId",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": ""
+				},
+				{
+					"id": "4e627c4c-8796-4432-b142-cd3af014e5d8",
+					"name": "titulo",
+					"datatype": "String",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"ref": "",
+					"options": ""
+				},
+				{
+					"id": "dc7a427c-1ca8-4d6e-93d7-97b4893ad5f7",
+					"name": "tipo",
+					"datatype": "String",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"ref": "",
+					"options": ""
+				},
+				{
+					"id": "6441dc87-9dfa-4f81-ac27-789fdff1200a",
+					"name": "capa",
+					"datatype": "String",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"ref": "",
+					"options": ""
+				},
+				{
+					"id": "eca4d157-098e-4d5e-ac84-164ec5d2f0da",
+					"name": "logo",
+					"datatype": "String",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"ref": "",
+					"options": ""
+				},
+				{
+					"id": "0d80345a-0de1-4672-93a3-094e514506e6",
+					"name": "thumb",
+					"datatype": "String",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"ref": "",
+					"options": ""
+				},
+				{
+					"id": "658e7f9a-d32f-4cdc-8965-d97c3bec267e",
+					"name": "video",
+					"datatype": "String",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"ref": "",
+					"options": ""
+				},
+				{
+					"id": "b1f3b739-9a53-4510-8a21-a73c6c2a8e37",
+					"name": "descricao",
+					"datatype": "String",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"ref": "",
+					"options": ""
+				},
+				{
+					"id": "8d6a7b99-5007-4bc5-88c2-6b927f2f29b0",
+					"name": "duracao",
+					"datatype": "String",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"ref": "",
+					"options": ""
+				},
+				{
+					"id": "1f622042-f349-4562-822a-741bea5fb047",
+					"name": "professores",
+					"datatype": "String",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": true,
+					"ref": "",
+					"options": ""
+				},
+				{
+					"id": "75a447e5-3eb9-40ed-8424-b46fd65f9ab8",
+					"name": "generos",
+					"datatype": "String",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": true,
+					"ref": "",
+					"options": ""
+				},
+				{
+					"id": "35aad4fb-3d8d-47ea-82a2-bf1ec169f9fa",
+					"name": "cenal",
+					"datatype": "String",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": true,
+					"ref": "",
+					"options": ""
+				}
+			],
+			"relations": [],
+			"lines": [
+				"61b9a679-be16-437f-b3da-39d51062bad6"
+			],
+			"keys": [
+				{
+					"id": "f39b10c3-03b4-4762-b931-b0290f71aee9",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "eea4f09f-8ded-4a70-857c-fce5520007e7",
+							"colid": "f4912d51-c9dd-49a4-aa32-3dbb2bc6b7f6"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"others": ""
+		},
+		"3026898a-9eef-4715-b696-428b8b722b84": {
+			"id": "3026898a-9eef-4715-b696-428b8b722b84",
+			"visible": true,
+			"name": "Usuario",
+			"desc": "Informações sobre Login, Senha e Dados do Usuario",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "f288b6c0-33a9-45e2-be22-efc417ddbb8e",
+					"name": "_id",
+					"datatype": "ObjectId",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": ""
+				},
+				{
+					"id": "5cee8950-2173-4899-bbbb-83afbeffc71b",
+					"name": "nome",
+					"datatype": "String",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"ref": "",
+					"options": ""
+				},
+				{
+					"id": "1a78970f-d1eb-4ffb-b3c9-eabb8ca7e4b7",
+					"name": "email",
+					"datatype": "String",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"ref": "",
+					"options": ""
+				},
+				{
+					"id": "af0a8bc7-6617-491d-87b2-de0f292f9041",
+					"name": "senha",
+					"datatype": "String",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"ref": "",
+					"options": ""
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "801ae0ad-f581-4c5e-b1e4-f52f8a8193a6",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "7392fc96-6f13-4802-9b9a-8b5c5504cbc5",
+							"colid": "f288b6c0-33a9-45e2-be22-efc417ddbb8e"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"others": ""
+		},
+		"f47f6fa3-34f4-4adf-9647-2184965c8ab7": {
+			"id": "f47f6fa3-34f4-4adf-9647-2184965c8ab7",
+			"visible": true,
+			"name": "Temporada",
+			"desc": "Conjunto de Estudos de menor tempo que compõe uma série de lições.",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "4b4fb002-934c-40fc-b529-ac381a9e6a9b",
+					"name": "_id",
+					"datatype": "ObjectId",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": ""
+				},
+				{
+					"id": "6d4beda0-952f-424d-8fb5-012f321a0ab1",
+					"name": "estudo_id",
+					"datatype": "ObjectId",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"ref": "",
+					"options": ""
+				},
+				{
+					"id": "49e6c4a7-5cc8-403d-82f1-3ad5f619888f",
+					"name": "titulo",
+					"datatype": "String",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"ref": "",
+					"options": ""
+				}
+			],
+			"relations": [],
+			"lines": [
+				"61b9a679-be16-437f-b3da-39d51062bad6",
+				"c42ab116-69ff-44e4-8d8e-04520868eda0"
+			],
+			"keys": [
+				{
+					"id": "01de6d1e-c85b-4265-bca5-37d19e52ff5b",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "2dfd990d-ac84-4254-8191-97fb639725ff",
+							"colid": "4b4fb002-934c-40fc-b529-ac381a9e6a9b"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"others": ""
+		},
+		"ba1d5b6a-690b-48e5-8df2-a15dcef7ed15": {
+			"id": "ba1d5b6a-690b-48e5-8df2-a15dcef7ed15",
+			"visible": true,
+			"name": "Licao",
+			"desc": "Estudo de menor tempo que compõe uma temporada",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "e778daa6-cfdb-4c6a-bb50-541556faf7aa",
+					"name": "_id",
+					"datatype": "ObjectId",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": ""
+				},
+				{
+					"id": "e352a2c8-98c6-478e-9a60-7c0de7cd93ad",
+					"name": "temporada_id",
+					"datatype": "ObjectId",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"ref": "",
+					"options": ""
+				},
+				{
+					"id": "0c390d0e-9d50-4162-8cb4-099a59e8dd4b",
+					"name": "titulo",
+					"datatype": "String",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"ref": "",
+					"options": ""
+				},
+				{
+					"id": "3c4256ae-ae93-45d3-8197-4bce2249c658",
+					"name": "descricao",
+					"datatype": "String",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"ref": "",
+					"options": ""
+				},
+				{
+					"id": "a62ae2fc-6d67-4786-a656-aae38ff3e973",
+					"name": "numero",
+					"datatype": "Number",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"ref": "",
+					"options": ""
+				},
+				{
+					"id": "8cedea00-4116-4e1d-9b69-9871e31d682f",
+					"name": "capa",
+					"datatype": "String",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"ref": "",
+					"options": ""
+				}
+			],
+			"relations": [],
+			"lines": [
+				"c42ab116-69ff-44e4-8d8e-04520868eda0"
+			],
+			"keys": [
+				{
+					"id": "5a17fe6b-6e1d-4b4f-bd2a-561ba311bda1",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "029ce36c-76ef-46ab-9fe6-aa03c59aa9f1",
+							"colid": "e778daa6-cfdb-4c6a-bb50-541556faf7aa"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"others": ""
+		}
+	},
+	"relations": {},
+	"notes": {},
+	"lines": {
+		"61b9a679-be16-437f-b3da-39d51062bad6": {
+			"id": "61b9a679-be16-437f-b3da-39d51062bad6",
+			"visible": true,
+			"name": "Estudo-Lições",
+			"desc": "",
+			"style": "solid",
+			"parent": "59f9aacb-49ed-411b-9d11-034b457ac65a",
+			"child": "f47f6fa3-34f4-4adf-9647-2184965c8ab7",
+			"lineColor": "transparent",
+			"markerStart": "none",
+			"markerEnd": "arrowEnd",
+			"linegraphics": "basic",
+			"generate": true
+		},
+		"c42ab116-69ff-44e4-8d8e-04520868eda0": {
+			"id": "c42ab116-69ff-44e4-8d8e-04520868eda0",
+			"visible": true,
+			"name": "Temporada-Lições",
+			"desc": "",
+			"style": "solid",
+			"parent": "f47f6fa3-34f4-4adf-9647-2184965c8ab7",
+			"child": "ba1d5b6a-690b-48e5-8df2-a15dcef7ed15",
+			"lineColor": "transparent",
+			"markerStart": "none",
+			"markerEnd": "arrowEnd",
+			"linegraphics": "basic",
+			"generate": true
+		}
+	},
+	"model": {
+		"name": "arqueologiaBiblica",
+		"id": "392acef8-2520-4a41-ac70-408d4637005f",
+		"activeDiagram": "09510dc7-ca69-4a28-bbdb-3d68ae0df18e",
+		"desc": "Modelo de ER para o app arqueologiaBiblica",
+		"path": "",
+		"type": "MONGOOSE",
+		"version": 1,
+		"parentTableInFkCols": true,
+		"caseConvention": "under",
+		"replaceSpace": "_",
+		"color": "transparent",
+		"sideSelections": true,
+		"isDirty": true,
+		"storedin": {
+			"major": 4,
+			"minor": 4,
+			"extra": 1
+		},
+		"embeddedInParentsIsDisplayed": true,
+		"schemaContainerIsDisplayed": false,
+		"cardinalityIsDisplayed": false,
+		"estimatedSizeIsDisplayed": false,
+		"def_coltopk": true,
+		"def_others": "",
+		"lastSaved": "Fri Feb 11 2022 16:43:19 GMT-0300 (Horário Padrão de Brasília)",
+		"writeFileParam": false
+	},
+	"otherObjects": {},
+	"diagrams": {
+		"09510dc7-ca69-4a28-bbdb-3d68ae0df18e": {
+			"name": "Main Diagram",
+			"description": "Diagrama de ER do app Arqueologia Biblica",
+			"id": "09510dc7-ca69-4a28-bbdb-3d68ae0df18e",
+			"keysgraphics": false,
+			"linegraphics": "detailed",
+			"zoom": 1,
+			"background": "#404040",
+			"lineColor": "#fcf3cf",
+			"isOpen": true,
+			"main": true,
+			"diagramItems": {
+				"59f9aacb-49ed-411b-9d11-034b457ac65a": {
+					"referencedItemId": "59f9aacb-49ed-411b-9d11-034b457ac65a",
+					"x": 45,
+					"y": 226,
+					"gHeight": 242,
+					"gWidth": 216,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"3026898a-9eef-4715-b696-428b8b722b84": {
+					"referencedItemId": "3026898a-9eef-4715-b696-428b8b722b84",
+					"x": 350,
+					"y": 76,
+					"gHeight": 98,
+					"gWidth": 178,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"f47f6fa3-34f4-4adf-9647-2184965c8ab7": {
+					"referencedItemId": "f47f6fa3-34f4-4adf-9647-2184965c8ab7",
+					"x": 333,
+					"y": 306,
+					"gHeight": 81,
+					"gWidth": 212,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"ba1d5b6a-690b-48e5-8df2-a15dcef7ed15": {
+					"referencedItemId": "ba1d5b6a-690b-48e5-8df2-a15dcef7ed15",
+					"x": 602,
+					"y": 279,
+					"gHeight": 134,
+					"gWidth": 235,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				}
+			},
+			"scroll": {
+				"left": 0,
+				"top": 0
+			}
+		}
+	},
+	"order": []
+}

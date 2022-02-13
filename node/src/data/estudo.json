@@ -1,0 +1,49 @@
+[
+  {
+    "titulo": "Faraós",
+    "tipo": "estudo",
+    "capa": "https://cdn.leouve.com.br/2020/02/1a7d825afa66ac33cf3e0aada82a7eaf.jpg",
+    "logo": "https://1.bp.blogspot.com/-gA_yzwV9Aes/XBbLfhqi9RI/AAAAAAAAE4I/D9XimJy6yycp9Xye13vGlzqSVBhiZ-uwgCLcBGAs/s640/olho-de-horus-pharaoh.png",
+    "thumb": "https://cdn.leouve.com.br/2020/02/1a7d825afa66ac33cf3e0aada82a7eaf.jpg",
+    "video": "https://www.youtube.com/watch?v=9YpjV_s0nd0",
+    "descricao": "Aprenda sobre a Hisória dos Faraos do Egito",
+    "duracao": "10min35seg",
+    "generos": [
+      "História do Egito",
+      "Faraós do Egito"
+    ],
+    "professores": [
+      "Rutã Kami no Senshi"
+    ],
+    "canal": [
+      {
+        "nome": "O Documentarista",
+        "link": "https://www.youtube.com/channel/UCUA-pQmmsor1nWCqFRr-zSw"
+      }
+    ]
+  },
+  {
+    "titulo": "Arca Da Aliança",
+    "tipo": "estudo",
+    "capa": "https://i1.wp.com/www.gospelprime.com.br/wp-content/uploads/2019/05/a-arca-da-alianca-1000x563.jpg",
+    "logo": "data:image/png;base64,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",
+    "thumb": "https://i1.wp.com/www.gospelprime.com.br/wp-content/uploads/2019/05/a-arca-da-alianca-1000x563.jpg",
+    "video": "https://www.youtube.com/watch?v=kGXQYaAmTTw",
+    "descricao": "O que podemos aprender sobre a Arca da Alinça",
+    "duracao": "1h08min08seg",
+    "generos": [
+      "História de Israel",
+      "Povo de Deus"
+    ],
+    "professores": [
+      "RodrigoSilva",
+      "Israel com Aline"
+    ],
+    "canal": [
+      {
+        "nome": "Rodrigo Silva Arqueologia",
+        "link": "https://www.youtube.com/channel/UCn4M9vLHegNuqM8tnL872cA"
+      }
+    ]
+  }
+]
