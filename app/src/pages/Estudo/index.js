@@ -13,7 +13,7 @@ import styles from './styles';
 
 const Estudo = () => {
 
-  const [tipo] = useState('Séries')
+  const [tipo] = useState('estudo')
   const [visible, setVisible] = useState(false)
   const [lesson, setLesson] = useState({value: 1, label: 'Lição 1'})
 
@@ -61,7 +61,7 @@ const Estudo = () => {
             <ButtonVertical icon="send" text="Compartilhe" />
             <ButtonVertical icon="download" text="Baixar" />
           </View>
-          {tipo === 'Séries' && (
+          {tipo === 'series' && (
             <>
               <Title>Série</Title>
               <TouchableOpacity 
@@ -81,7 +81,7 @@ const Estudo = () => {
           )}
         </View>
 
-        {tipo === 'Estudo' && <Secao hasTopBorder />}
+        {tipo === 'estudo' && <Secao hasTopBorder />}
       </ScrollView>
     </>
   );

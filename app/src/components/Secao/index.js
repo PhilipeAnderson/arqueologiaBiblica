@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Text, View, FlatList, TouchableOpacity, ImageBackground, Image } from 'react-native'
+import { View, FlatList, TouchableOpacity, ImageBackground, Image } from 'react-native'
 import { Title } from 'react-native-paper'
 import styles from './styles'
 
@@ -23,10 +23,8 @@ const Secao = ({ hasTopBorder }) => {
 								resizeMode="contain"
 								style={styles.logo}
 								source={{ uri: 'https://i.imgur.com/oDHGhpX.png' }}
-
 							>
 							</Image>
-
 						</ImageBackground>
 					</TouchableOpacity>
 				)}

@@ -160,7 +160,7 @@
 				},
 				{
 					"id": "35aad4fb-3d8d-47ea-82a2-bf1ec169f9fa",
-					"name": "cenal",
+					"name": "canal",
 					"datatype": "String",
 					"param": "",
 					"pk": false,
@@ -523,7 +523,7 @@
 		"estimatedSizeIsDisplayed": false,
 		"def_coltopk": true,
 		"def_others": "",
-		"lastSaved": "Fri Feb 11 2022 16:43:19 GMT-0300 (Horário Padrão de Brasília)",
+		"lastSaved": "Sun Feb 13 2022 15:24:14 GMT-0300 (Horário Padrão de Brasília)",
 		"writeFileParam": false
 	},
 	"otherObjects": {},
@@ -553,8 +553,8 @@
 				},
 				"3026898a-9eef-4715-b696-428b8b722b84": {
 					"referencedItemId": "3026898a-9eef-4715-b696-428b8b722b84",
-					"x": 350,
-					"y": 76,
+					"x": 351,
+					"y": 42,
 					"gHeight": 98,
 					"gWidth": 178,
 					"color": "#ffffff",

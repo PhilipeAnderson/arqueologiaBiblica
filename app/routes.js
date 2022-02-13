@@ -64,7 +64,6 @@ const HomeTabs = () => {
 }
 
 const Routes = () => {
-
 	return (
 		<NavigationContainer>
 			<Stack.Navigator initialRouteName="Login">
