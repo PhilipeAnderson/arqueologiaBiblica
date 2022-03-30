@@ -1,19 +1,80 @@
+import { useState } from 'react';
 import { Movies } from './Movies';
 
 export function MovieList() {
 
-  const listDataBase = [
-    {name: 'F1', category: 'action', year: 2020},
-    {name: 'F2', category: 'romance', year: 2021},
-    {name: 'F3', category: 'child', year: 2022},
-    {name: 'F4', category: 'loves', year: 2023},
-    {name: 'F5', category: 'politic', year: 2024},
-  ]
+  const [ filmes, setFilmes ] = useState([]);
+  const [ filme, setFilme ] = useState({});
 
-
+  const addMovie = () => {
+    setFilmes([
+      filme,
+      ...filmes
+    ])
+  }
 
   return(
-    <table className="table table-striped">
+    <div className="container">
+      <div className="jumbotron">
+        <div className="row">
+          
+          <div className="col-4">
+            <label>Movie</label>
+            <input 
+              type="text" 
+              className="form-control" 
+              placeholder="Name" 
+              onChange={(e) => {
+                setFilme({
+                  ...filme,
+                  name: e.target.value
+                })
+              }}  
+            />
+          </div> 
+
+          <div className="col-4">
+            <label>Category</label>
+            <select 
+              className="form-control"
+              onChange={(e) => {
+                setFilme({
+                  ...filme,
+                  category: e.target.value
+                })
+              }}
+            >
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+
+          <div className="col-4">
+            <label>Year</label>
+            <input 
+              type="number" 
+              className="form-control" 
+              onChange={(e) => {
+                setFilme({
+                  ...filme,
+                  year: e.target.value
+                })
+              }}
+            />
+          </div>
+
+        </div>
+          <br />
+          <button 
+            onClick={addMovie}  
+            className="btn btn-success btn-lg btn-block"
+          >Add Movie</button>
+      </div>
+    
+      <table className="table table-striped">
         <thead>
           <tr>
             <th scope="col">Movie</th>
@@ -22,10 +83,11 @@ export function MovieList() {
           </tr>
         </thead>
         <tbody>       
-          { listDataBase.map( movie => (
+          { filmes.map( movie => (
             <Movies movies={ movie }/>
           ))}
         </tbody>
-      </table>  
+      </table>
+    </div>  
   )
 }
