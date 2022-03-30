@@ -1,4 +1,4 @@
-import { Tr } from './Tr';
+import { Movies } from './Movies';
 
 export function MovieList() {
 
@@ -23,7 +23,7 @@ export function MovieList() {
         </thead>
         <tbody>       
           { listDataBase.map( movie => (
-            <Tr movies={ movie }/>
+            <Movies movies={ movie }/>
           ))}
         </tbody>
       </table>  
