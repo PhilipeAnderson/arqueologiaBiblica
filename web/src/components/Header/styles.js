@@ -1,10 +1,16 @@
 import styled from 'styled-components'
 
 export const Container = styled.main`
-  width: 100%;
-  background-color: #000;
+  max-width: 1080px;
+  margin: 0 auto;
   
-  h1 {
-    color: #f00;
+  
+  
+`;
+
+export const ButtonTable = styled.td`
+  
+  button {
+    color: #ffffff;
   }
 `;
