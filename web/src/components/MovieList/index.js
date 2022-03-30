@@ -1,9 +1,8 @@
-import { Container, ButtonTable } from './styles'
+import { Tr } from './Tr';
 
 export function MovieList() {
   return(
-    <Container >
-      <table className="table table-striped">
+    <table className="table table-striped">
         <thead>
           <tr>
             <th scope="col">Nome</th>
@@ -11,18 +10,9 @@ export function MovieList() {
             <th scope="col">Ano</th>
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <td>Alice No País das Maravilhas</td>
-            <td>Magia</td>
-            <td>2020</td>
-            <ButtonTable>
-              <button className="btn btn-info">Informações</button>{' '}
-              <button className="btn btn-danger">Excluir</button>
-            </ButtonTable>
-          </tr>
+        <tbody>       
+          <Tr />
         </tbody>
-      </table>
-    </Container>
+      </table>  
   )
 }
