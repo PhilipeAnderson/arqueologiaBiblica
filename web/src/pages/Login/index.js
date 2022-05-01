@@ -1,7 +1,12 @@
-import { Container } from './styles'
-
+import { Container, Content, Logo} from './styles';
+import LogoImg from '../../assets/image/logo.jpg';
 export function Login() {
   return(
-    <h1>Text Login</h1>
+    <Container>
+    <Content>
+      <img src={ LogoImg } width="175" alt="Logo da Aplicação" />
+
+    </Content>
+    </Container>
   )
 }

@@ -1,8 +1,14 @@
-import { Header } from './components/Header';
+import { Login } from './pages/Login';
+import { ThemeProvider } from 'styled-components';
+import { theme } from './theme/theme';
 
 function App() {
   return (
-    <Header />
+    <ThemeProvider theme={ theme }>
+      <Login />
+
+    </ThemeProvider>
+
   );
 }
 
