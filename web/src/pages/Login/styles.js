@@ -17,9 +17,6 @@ export const Content = styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: center;
+  flex-direction: column;
   background-color: ${({ theme }) => theme.colors.backgroundArise};
-`;
-
-export const Logo = styled.image`
-  width: 250px;
 `;
