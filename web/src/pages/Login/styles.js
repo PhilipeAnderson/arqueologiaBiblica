@@ -18,14 +18,30 @@ export const Content = styled.div`
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
-  background-color: ${({ theme }) => theme.colors.backgroundArise};
 `;
 
 export const InfoLogin = styled.div`
   width: 100%;
-  height: 110px;
+  height: 170px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
+`;
+
+export const FooterLogin = styled.div`
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  p {
+    color: white;
+  }
+
+  small {
+    color: ${({ theme }) => theme.colors.textGray}
+  }
 `;
