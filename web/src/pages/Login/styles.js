@@ -12,11 +12,20 @@ export const Container = styled.main`
 export const Content = styled.div`
   width: 350px;
   height: 500px;
-  position: absolute;
-
+  
+  
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
   flex-direction: column;
   background-color: ${({ theme }) => theme.colors.backgroundArise};
+`;
+
+export const InfoLogin = styled.div`
+  width: 100%;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
 `;

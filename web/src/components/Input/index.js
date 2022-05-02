@@ -1,7 +1,7 @@
 import { Container } from './styles';
 
-export function Input({ place }) {
+export function Input({ type, place }) {
   return(
-    <Container type="text" placeholder={ place } />
+    <Container type={ type } placeholder={ place } />
   )
 }
