@@ -8,8 +8,10 @@ export function Login() {
     <Container>
       <Content>
         <img src={ LogoImg } width="175" alt="Logo da Aplicação" />
-        <Input place="Entre com seu email" />
-
+        <Login>
+          <Input type="text" place="Entre com seu email" />
+          <Input type="password" place="Digite sua senha" />
+        </Login>
       </Content>
     </Container>
   )
